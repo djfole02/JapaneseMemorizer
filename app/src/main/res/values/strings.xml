@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">JapaneseMemorizer</string>
+    <string name="continue_">continue</string>
+
+    <string name="guess">きゅユ</string>
+    <string name="guess1">1</string>
+    <string name="guess2">2</string>
+    <string name="guess3">3</string>
+    <string name="guess4">4</string>
+
+    <string name="h_">A: 　あいうえお</string>
+    <string name="h_k">K: 　かきくけこ</string>
+    <string name="h_s">S: 　さしすせそ</string>
+    <string name="h_t">T: 　たちつてと</string>
+    <string name="h_n">N: 　なにぬねの</string>
+    <string name="h_h">H: 　はひふへほ</string>
+    <string name="h_m">M: 　まみむめも</string>
+    <string name="h_y">Y: 　や　ゆ　よ</string>
+    <string name="h_r">R: 　らりるれろ</string>
+    <string name="h_w">W: 　わ　　　を</string>
+    <string name="h_no">N: 　ん</string>
+    <string name="h_g">G: 　がぎぐげご</string>
+    <string name="h_z">Z: 　ざじずぜぞ</string>
+    <string name="h_d">D: 　だぢづでど</string>
+    <string name="h_b">B: 　ばびぶべぼ</string>
+    <string name="h_p">P: 　ぱぴぷぺぽ</string>
+    <string name="h_ky">KY: きゃ　きゅ　きょ</string>
+    <string name="h_gy">GY: ぎゃ　ぎゅ　ぎょ</string>
+    <string name="h_sh">SH: しゃ　しゅ　しょ</string>
+    <string name="h_j">J: じゃ　じゅ　じょ</string>
+    <string name="h_ch">CH: ちゃ　ちゅ　ちょ</string>
+    <string name="h_ny">NY: にゃ　にゅ　にょ</string>
+    <string name="h_hy">HY: ひゃ　ひゅ　ひょ</string>
+    <string name="h_by">BY: びゃ　びゅ　びょ</string>
+    <string name="h_my">MY: みゃ　みゅ　みょ</string>
+    <string name="h_py">PY: ぴゃ　ぴゅ　ぴょ</string>
+    <string name="h_ry">RY: りゃ　りゅ　ｙろ</string>
+
+    <string name="k_">A: 　アイウエオ</string>
+    <string name="k_k">K: 　カキクケコ</string>
+    <string name="k_s">S: 　サシスセソ</string>
+    <string name="k_t">T: 　タチツテト</string>
+    <string name="k_n">N: 　ナニヌネノ</string>
+    <string name="k_h">H: 　ハヒフヘホ</string>
+    <string name="k_m">M: 　マミムメモ</string>
+    <string name="k_y">Y: 　ヤ　ユ　ヨ</string>
+    <string name="k_r">R: 　ラリルレロ</string>
+    <string name="k_w">W: 　ワ　　　ヲ</string>
+    <string name="k_no">N: 　ン</string>
+    <string name="k_g">G: 　ガギグゲゴ</string>
+    <string name="k_z">Z: 　ザジズゼゾ</string>
+    <string name="k_d">D: 　ダヂヅデド</string>
+    <string name="k_b">B: 　バビブベボ</string>
+    <string name="k_p">P: 　パピプペポ</string>
+    <string name="k_ky">KY: キャ　キュ　キョ</string>
+    <string name="k_gy">GY: ギャ　ギュ　ギョ</string>
+    <string name="k_sh">SH: シャ　シュ　ショ</string>
+    <string name="k_j">J: ジャ　ジュ　ジョ</string>
+    <string name="k_ch">CH: チャ　チュ　チョ</string>
+    <string name="k_ny">NY: ニャ　ニュ　ニョ</string>
+    <string name="k_hy">HY: ヒャ　ヒュ　ヒョ</string>
+    <string name="k_by">BY: ビャ　ビュ　ビョ</string>
+    <string name="k_my">MY: ミャ　ミュ　ミョ</string>
+    <string name="k_py">PY: ピャ　ピュ　ピョ</string>
+    <string name="k_ry">RY: リャ　リュ　リョ</string>
+
+</resources>

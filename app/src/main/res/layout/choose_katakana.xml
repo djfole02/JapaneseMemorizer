@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_mode">
+
+    <CheckBox
+        android:id="@+id/k_KY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_ky"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_GY"
+        app:layout_constraintEnd_toStartOf="@+id/k_NY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_N" />
+
+    <CheckBox
+        android:id="@+id/k_PY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_py"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_CH"
+        app:layout_constraintTop_toBottomOf="@+id/k_MY" />
+
+    <CheckBox
+        android:id="@+id/k_BY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_by"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_MY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_SH"
+        app:layout_constraintTop_toBottomOf="@+id/k_HY" />
+
+    <CheckBox
+        android:id="@+id/k_GY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_gy"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_SH"
+        app:layout_constraintEnd_toStartOf="@+id/k_HY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_KY" />
+
+    <CheckBox
+        android:id="@+id/k_MY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_my"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_PY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_J"
+        app:layout_constraintTop_toBottomOf="@+id/k_BY" />
+
+    <CheckBox
+        android:id="@+id/k_J"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_j"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_CH"
+        app:layout_constraintEnd_toStartOf="@+id/k_MY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_SH" />
+
+    <CheckBox
+        android:id="@+id/k_NY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_ny"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_HY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_KY"
+        app:layout_constraintTop_toBottomOf="@+id/k_NO" />
+
+    <CheckBox
+        android:id="@+id/k_CH"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_ch"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_RY"
+        app:layout_constraintEnd_toStartOf="@+id/k_PY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_J" />
+
+    <CheckBox
+        android:id="@+id/k_RY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/k_ry"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/k_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_CH" />
+
+    <CheckBox
+        android:id="@+id/k_SH"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_sh"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_J"
+        app:layout_constraintEnd_toStartOf="@+id/k_BY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_GY"
+        android:textColor="#00FFFF" />
+
+    <CheckBox
+        android:id="@+id/k_HY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_hy"
+        android:textColor="#00FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_BY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_GY"
+        app:layout_constraintTop_toBottomOf="@+id/k_NY" />
+
+    <CheckBox
+        android:id="@+id/k_NO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_no"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_NY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_N"
+        app:layout_constraintTop_toBottomOf="@+id/k_W"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <CheckBox
+        android:id="@+id/k_K"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_k"
+        android:textColor="#00FFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_S"
+        app:layout_constraintEnd_toStartOf="@+id/k_Z"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_" />
+
+    <CheckBox
+        android:id="@+id/k_"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_"
+        android:textColor="#00FFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/k_K"
+        app:layout_constraintEnd_toStartOf="@+id/k_G"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/k_H"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_h"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_M"
+        app:layout_constraintEnd_toStartOf="@+id/k_P"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_T" />
+
+    <CheckBox
+        android:id="@+id/k_R"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/k_r"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_N"
+        app:layout_constraintEnd_toStartOf="@+id/k_W"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_M" />
+
+    <CheckBox
+        android:id="@+id/k_S"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_s"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_T"
+        app:layout_constraintEnd_toStartOf="@+id/k_D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_K" />
+
+    <CheckBox
+        android:id="@+id/k_T"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_t"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_H"
+        app:layout_constraintEnd_toStartOf="@+id/k_B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_S" />
+
+    <CheckBox
+        android:id="@+id/k_N"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_n"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_KY"
+        app:layout_constraintEnd_toStartOf="@+id/k_NO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_R" />
+
+    <CheckBox
+        android:id="@+id/k_M"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/k_m"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_R"
+        app:layout_constraintEnd_toStartOf="@+id/k_Y"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/k_H" />
+
+    <CheckBox
+        android:id="@+id/k_Z"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_z"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_K"
+        app:layout_constraintTop_toBottomOf="@+id/k_G" />
+
+    <CheckBox
+        android:id="@+id/k_Y"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/k_y"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_W"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_M"
+        app:layout_constraintTop_toBottomOf="@+id/k_P" />
+
+    <CheckBox
+        android:id="@+id/k_D"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_d"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_S"
+        app:layout_constraintTop_toBottomOf="@+id/k_Z" />
+
+    <CheckBox
+        android:id="@+id/k_B"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_b"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_P"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_T"
+        app:layout_constraintTop_toBottomOf="@+id/k_D" />
+
+    <CheckBox
+        android:id="@+id/k_P"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_p"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_Y"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_H"
+        app:layout_constraintTop_toBottomOf="@+id/k_B" />
+
+    <CheckBox
+        android:id="@+id/k_G"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_g"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_Z"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/k_W"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/k_w"
+        android:textColor="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/k_NO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_R"
+        app:layout_constraintTop_toBottomOf="@+id/k_Y" />
+
+    <Button
+        android:id="@+id/k_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/continue_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/k_RY"
+        app:layout_constraintTop_toBottomOf="@+id/k_PY" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
