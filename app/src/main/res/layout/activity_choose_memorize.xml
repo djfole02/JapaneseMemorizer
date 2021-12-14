@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_mode"
+    tools:context=".ChooseMemorize">
+
+    <Button
+        android:id="@+id/mem_hiragana"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="79dp"
+        android:onClick="toMemorizeFromHiragana"
+        android:text="@string/hiragana"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/mem_katakana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mem_katakana"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:onClick="toMemorizeFromKatakana"
+        android:text="@string/katakana"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="159dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="64dp"
+        android:checked="true"
+        android:onClick="switchLogic"
+        android:text="@string/je"
+        android:textAlignment="center"
+        android:textColor="#00FFFF"
+        android:textSize="20sp"
+        android:thumbTint="#00FFFF"
+        android:trackTint="#D8CACA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mem_katakana" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_mode">
+    android:background="@color/dark_mode"
+    tools:context=".ChooseKatakana">
 
     <CheckBox
         android:id="@+id/k_KY"
@@ -18,7 +19,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_GY"
         app:layout_constraintEnd_toStartOf="@+id/k_NY"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_N" />
+        app:layout_constraintTop_toBottomOf="@+id/k_N"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_PY"
@@ -31,7 +33,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_CH"
-        app:layout_constraintTop_toBottomOf="@+id/k_MY" />
+        app:layout_constraintTop_toBottomOf="@+id/k_MY"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_BY"
@@ -44,7 +47,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_MY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_SH"
-        app:layout_constraintTop_toBottomOf="@+id/k_HY" />
+        app:layout_constraintTop_toBottomOf="@+id/k_HY"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_GY"
@@ -58,7 +62,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_SH"
         app:layout_constraintEnd_toStartOf="@+id/k_HY"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_KY" />
+        app:layout_constraintTop_toBottomOf="@+id/k_KY"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_MY"
@@ -71,7 +76,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_PY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_J"
-        app:layout_constraintTop_toBottomOf="@+id/k_BY" />
+        app:layout_constraintTop_toBottomOf="@+id/k_BY"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_J"
@@ -85,7 +91,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_CH"
         app:layout_constraintEnd_toStartOf="@+id/k_MY"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_SH" />
+        app:layout_constraintTop_toBottomOf="@+id/k_SH"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_NY"
@@ -98,7 +105,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_HY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_KY"
-        app:layout_constraintTop_toBottomOf="@+id/k_NO" />
+        app:layout_constraintTop_toBottomOf="@+id/k_NO"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_CH"
@@ -112,7 +120,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_RY"
         app:layout_constraintEnd_toStartOf="@+id/k_PY"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_J" />
+        app:layout_constraintTop_toBottomOf="@+id/k_J"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_RY"
@@ -127,7 +136,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/k_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_CH" />
+        app:layout_constraintTop_toBottomOf="@+id/k_CH"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_SH"
@@ -136,12 +146,13 @@
         android:layout_marginStart="34dp"
         android:layout_marginEnd="33dp"
         android:text="@string/k_sh"
+        android:textColor="#00FFFF"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/k_J"
         app:layout_constraintEnd_toStartOf="@+id/k_BY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/k_GY"
-        android:textColor="#00FFFF" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_HY"
@@ -154,7 +165,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_BY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_GY"
-        app:layout_constraintTop_toBottomOf="@+id/k_NY" />
+        app:layout_constraintTop_toBottomOf="@+id/k_NY"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_NO"
@@ -167,7 +179,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_N"
         app:layout_constraintTop_toBottomOf="@+id/k_W"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_K"
@@ -181,7 +193,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_S"
         app:layout_constraintEnd_toStartOf="@+id/k_Z"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_" />
+        app:layout_constraintTop_toBottomOf="@+id/k_"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_"
@@ -196,7 +209,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_K"
         app:layout_constraintEnd_toStartOf="@+id/k_G"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_H"
@@ -209,7 +223,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_M"
         app:layout_constraintEnd_toStartOf="@+id/k_P"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_T" />
+        app:layout_constraintTop_toBottomOf="@+id/k_T"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_R"
@@ -223,7 +238,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_N"
         app:layout_constraintEnd_toStartOf="@+id/k_W"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_M" />
+        app:layout_constraintTop_toBottomOf="@+id/k_M"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_S"
@@ -236,7 +252,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_T"
         app:layout_constraintEnd_toStartOf="@+id/k_D"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_K" />
+        app:layout_constraintTop_toBottomOf="@+id/k_K"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_T"
@@ -249,7 +266,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_H"
         app:layout_constraintEnd_toStartOf="@+id/k_B"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_S" />
+        app:layout_constraintTop_toBottomOf="@+id/k_S"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_N"
@@ -262,7 +280,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_KY"
         app:layout_constraintEnd_toStartOf="@+id/k_NO"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_R" />
+        app:layout_constraintTop_toBottomOf="@+id/k_R"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_M"
@@ -275,7 +294,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_R"
         app:layout_constraintEnd_toStartOf="@+id/k_Y"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/k_H" />
+        app:layout_constraintTop_toBottomOf="@+id/k_H"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_Z"
@@ -287,7 +307,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_K"
-        app:layout_constraintTop_toBottomOf="@+id/k_G" />
+        app:layout_constraintTop_toBottomOf="@+id/k_G"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_Y"
@@ -300,7 +321,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_W"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_M"
-        app:layout_constraintTop_toBottomOf="@+id/k_P" />
+        app:layout_constraintTop_toBottomOf="@+id/k_P"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_D"
@@ -312,7 +334,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_S"
-        app:layout_constraintTop_toBottomOf="@+id/k_Z" />
+        app:layout_constraintTop_toBottomOf="@+id/k_Z"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_B"
@@ -324,7 +347,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_P"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_T"
-        app:layout_constraintTop_toBottomOf="@+id/k_D" />
+        app:layout_constraintTop_toBottomOf="@+id/k_D"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_P"
@@ -336,7 +360,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_Y"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_H"
-        app:layout_constraintTop_toBottomOf="@+id/k_B" />
+        app:layout_constraintTop_toBottomOf="@+id/k_B"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_G"
@@ -349,7 +374,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_Z"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/k_W"
@@ -361,7 +387,8 @@
         app:layout_constraintBottom_toTopOf="@+id/k_NO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/k_R"
-        app:layout_constraintTop_toBottomOf="@+id/k_Y" />
+        app:layout_constraintTop_toBottomOf="@+id/k_Y"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/k_button"
@@ -369,6 +396,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="12dp"
+        android:onClick="chosen"
         android:text="@string/continue_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,12 +1,34 @@
 <resources>
-    <string name="app_name">JapaneseMemorizer</string>
+    <string name="app_name">Japanese Memorizer</string>
     <string name="continue_">continue</string>
 
+    <string name="memorize">MEMORIZE</string>
+    <string name="test">TEST</string>
+    <string name="profile">PROFILE</string>
+    <string name="back">BACK TO MAIN MENU</string>
+    <string name="je">J->E</string>
+    <string name="ej">E->J</string>
     <string name="guess">きゅユ</string>
     <string name="guess1">1</string>
     <string name="guess2">2</string>
     <string name="guess3">3</string>
     <string name="guess4">4</string>
+    <string name="lives">Lives: 3</string>
+    <string name="score">Score: 0</string>
+
+    <string name="hiragana">HIRAGANA</string>
+    <string name="katakana">KATAKANA</string>
+    <string name="kanji">KANJI</string>
+    <string name="kanji1">KANJI 1</string>
+    <string name="kanji2">KANJI 2</string>
+    <string name="kanji3">KANJI 3</string>
+    <string name="kanji4">KANJI 4</string>
+    <string name="kanji5">KANJI 5</string>
+    <string name="kanji6">KANJI 6</string>
+    <string name="kanji7">KANJI 7</string>
+    <string name="kanji8">KANJI 8</string>
+    <string name="kanji9">KANJI 9</string>
+    <string name="kanji10">KANJI 10</string>
 
     <string name="h_">A: 　あいうえお</string>
     <string name="h_k">K: 　かきくけこ</string>
@@ -63,5 +85,15 @@
     <string name="k_my">MY: ミャ　ミュ　ミョ</string>
     <string name="k_py">PY: ピャ　ピュ　ピョ</string>
     <string name="k_ry">RY: リャ　リュ　リョ</string>
+    <string name="title_activity_choose_hiragana">choose_hiragana</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_new">NewActivity</string>
 
 </resources>
